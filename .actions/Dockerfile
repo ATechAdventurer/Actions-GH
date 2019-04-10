@@ -1,4 +1,4 @@
-FROM debian:9.5-slim
+FROM node:slim
 
 LABEL "com.github.actions.name"="TestAction"
 LABEL "com.github.actions.description"="Write arguments to the standard output"
